@@ -12,7 +12,7 @@ function Counter() {
 
   return(
     <div className="counter">
-      <h1>{data}</h1>
+      <h1 className="badge badge-secondary">{data}</h1>
     </div>
   )
 }
