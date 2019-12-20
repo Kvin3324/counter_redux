@@ -15,6 +15,10 @@ function buttonState(state = appState, action) {
     return state += parseInt(action.value.current.value);
   }
 
+  if (action.type === "DECREMENTE_WITH_DATA") {
+    return state -= parseInt(action.value.current.value);
+  }
+
   return state;
 }
 
