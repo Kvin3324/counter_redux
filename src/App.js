@@ -8,7 +8,8 @@ import store from "./redux/store";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
+      <h1 style={{"text-align": "left"}} className="mb-5 mt-3">Counter Redux presents:</h1>
       <Counter/>
       <Buttons/>
     </div>
